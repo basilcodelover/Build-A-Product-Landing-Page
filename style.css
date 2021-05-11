@@ -1,0 +1,162 @@
+img{
+width: 50px;
+height: 50px;
+position: relative;
+left: 85px;
+top: -53px;
+
+}
+#heading{
+font-size: 45px;
+position: relative;
+top: -97px;
+left: 85px;
+font-family: MASQUE__;
+}
+
+#header{ position: fixed;}
+
+
+#nav-bar{
+
+position: fixed;
+top: 25px;
+right: 70px;
+
+}
+
+#a{ position: fixed;
+right: 220px;
+top: 25px;
+font-family: Prototype;
+text-decoration: none;
+}
+
+#b{ position: fixed;
+right: 150px;
+top: 25px;
+font-family: Prototype;
+text-decoration: none;
+}
+
+#c{ position: fixed;
+right: 95px;
+top: 25px;
+font-family: Prototype;
+text-decoration: none;}
+
+
+.full{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+position: relative;
+top: 150px;
+
+}
+
+#buy{
+
+width: 80px;
+height: 30px;
+background-color: white;
+border: solid;
+border-color: red;
+position: relative;
+top: 105px;
+left: 55px;
+border-radius: 50px;
+}
+
+.buy-text{
+position: relative;
+top: 62px;
+left:86px;
+}
+
+#buy:hover{
+  background-color: red;
+
+}
+
+
+.top{ display: flex;
+position: relative;
+top: 50px;
+
+}
+
+#video{ position: relative;
+top: -50px;
+}
+
+#email{
+  position: relative;
+  top: 50px;
+
+}
+
+  #submit{
+    position: relative;
+    top: 75px;
+left: 65px;
+
+  }
+
+
+.blank{
+height: 50px;
+width: 50px;
+   position: relative;
+top: 120px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+.full{ width: 300px;
+height: 720px;
+}
+
+}
+@font-face {
+  font-family: MASQUE__;
+  src: url(fonts/MASQUE__.ttf);
+}
+@font-face {
+  font-family: Prototype;
+  src: url(fonts\Prototype.ttf);
+}
+#email{ ;
+border: solid;
+border-width: 2px;
+height: 40px;
+width: 200px;
+position: relative;
+left: 5px;
+color: #001aff;
+}
+#submit{
+border-radius: 50px;
+height: 25px;
+width: 60px;
+border: solid;
+border-width: 2px;
+color: #001aff;
+ }
+
+#buy{ }
+
+::-webkit-input-placeholder{ color: red;
+position: relative;
+left: 50px;
+font-size: 15px;
+}
+
+.email-icon{
+  position: relative;
+top: 68px;
+left: -200px;
+height: 40px;
+width: 40px;
+}
