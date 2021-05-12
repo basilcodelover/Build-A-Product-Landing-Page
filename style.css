@@ -121,11 +121,11 @@ height: 720px;
 }
 @font-face {
   font-family: MASQUE__;
-  src: url(fonts/MASQUE__.ttf);
+  src: url(MASQUE__.ttf);
 }
 @font-face {
   font-family: Prototype;
-  src: url(fonts\Prototype.ttf);
+  src: url(Prototype.ttf);
 }
 #email{ ;
 border: solid;
