@@ -11,7 +11,7 @@ font-size: 45px;
 position: relative;
 top: -97px;
 left: 85px;
-font-family: MASQUE__;
+font-family: MASQUE;
 }
 
 #header{ position: fixed;}
@@ -120,7 +120,7 @@ height: 720px;
 
 }
 @font-face {
-  font-family: MASQUE__;
+  font-family: MASQUE;
   src: url(MASQUE__.ttf);
 }
 @font-face {
